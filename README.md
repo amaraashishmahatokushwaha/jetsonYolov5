@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Running YoloV5 with TensorRT Engine on Jetson.
 ==========
 
@@ -105,3 +106,7 @@ Use `app.py` to do inferencing on any video file or camera.
 	$ python3 app.py
 
 If you have custom model, make sure to update categories as per your classes in `yolovDet.py` .
+=======
+# jetsonYolov5
+run yolov5 on jetson nano using csi camera.
+>>>>>>> 92d70c97b695f1e92e2143df4e33ea5ae0f89617
