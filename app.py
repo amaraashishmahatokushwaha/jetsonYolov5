@@ -6,7 +6,7 @@ from yoloDet import YoloTRT
 # use path for library and engine file
 model = YoloTRT(library="yolov5/build/libmyplugins.so", engine="yolov5/build/yolov5s.engine", conf=0.5, yolo_ver="v5")
 
-cap = cv2.VideoCapture("videos/testvideo.mp4")
+cap = cv2.VideoCapture("videos/testvideo1.mp4")
 
 while True:
     ret, frame = cap.read()
